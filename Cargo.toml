@@ -1,0 +1,11 @@
+[package]
+name = "xp-basic"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = "forbid"
+unused = {level = "allow", priority = -1 } # For exploratory development
+
+[dependencies]
+derive_more = {version ="*", features = ["full"]}
